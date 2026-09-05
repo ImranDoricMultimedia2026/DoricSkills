@@ -113,7 +113,7 @@ export default function Footer() {
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
-    
+
     setIsLoading(true);
     // Simulate subscription
     setTimeout(() => {
@@ -131,7 +131,7 @@ export default function Footer() {
       {/* Decorative Elements */}
       <div className="absolute left-0 top-0 -translate-x-1/2 -translate-y-1/2 h-[400px] w-[400px] rounded-full bg-[#9d3526]/10 blur-3xl" />
       <div className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 h-[500px] w-[500px] rounded-full bg-[#c5a880]/5 blur-3xl" />
-      
+
       {/* Top Gradient Line */}
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#c5a880] to-transparent opacity-50" />
 
@@ -148,19 +148,19 @@ export default function Footer() {
               className="space-y-4"
             >
               {/* Logo */}
-           <Link href="/" className="group inline-flex items-center">
-  <Image
-    src="/images/Doric skills logo png.png"
-    alt="Doric Skills"
-    width={180}
-    height={60}
-    className="h-auto w-[180px] object-contain"
-    priority
-  />
-</Link>
+              <Link href="/" className="group inline-flex items-center">
+                <Image
+                  src="/images/new logo size white.png"
+                  alt="Doric Skills"
+                  width={180}
+                  height={60}
+                  className="h-auto w-[180px] object-contain"
+                  priority
+                />
+              </Link>
 
               <p className="text-sm text-gray-400 leading-relaxed max-w-xs">
-                Transforming lives through quality education and skill development. 
+                Transforming lives through quality education and skill development.
                 Building future leaders since 2018.
               </p>
 
@@ -342,7 +342,7 @@ export default function Footer() {
             <div className="text-sm text-gray-400">
               &copy; {currentYear} Doric Skills. All rights reserved.
             </div>
-            
+
             <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
               <Link
                 href="/privacy"
