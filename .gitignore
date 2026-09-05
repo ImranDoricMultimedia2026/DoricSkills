@@ -5,7 +5,5 @@ node_modules/
 .env.local
 .env.*.local
 "@ | Out-File -Encoding utf8 .gitignore
-
-
-
+" MVC next week start"
 
