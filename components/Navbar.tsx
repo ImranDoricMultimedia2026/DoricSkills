@@ -117,7 +117,7 @@ export default function Navbar() {
               "
             >
               <Image
-                src="/images/Doric skills logo png 02.png"
+                src="/images/new_logo_size.jpg.jpeg"
                 alt="Doric Skills logo"
                 width={200}
                 height={200}
